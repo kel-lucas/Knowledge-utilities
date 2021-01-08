@@ -1,0 +1,23 @@
+npm install === yarn add
+
+npm instal --no-package-lock === yarn add --no-lockfile
+
+npm install [package] --save === yarn add [package]
+
+npm install [package] --save-dev === yarn add [package] --dev
+
+npm install [package] --global === yarn global add [package]
+
+npm update --global === yarn global upgrade
+
+npm rebuild === yarn add --force
+
+npm uninstall [package] === yarn remove [package]
+
+rm -rf node_modules && npm install === yarn upgrade
+
+npm version major === yarn version --major
+
+npm version minor === yarn version --minor
+
+npm version patch === yarn version --patch
